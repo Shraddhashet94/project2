@@ -2,11 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.edurekademo.tutorial</groupId>
-    <artifactId>Project2</artifactId>
+    <artifactId>project2</artifactId>
     <version>1.1.1-SNAPSHOT</version><!--test-->
     <packaging>pom</packaging>
     <name>Address Book Edureka Demo</name>
-    <url>https://github.com/kigrads/demoRepo</url>
+    <url>https://github.com/kigrads/project2</url>
     <properties>
         <build.number>SNAPSHOT</build.number>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -17,7 +17,7 @@
         <targetJdk>1.8</targetJdk>
         <github.account>kigrads</github.account>
         <thucydides.version>0.9.268</thucydides.version>
-        <jelastic.context>demoRepo</jelastic.context>
+        <jelastic.context>project2</jelastic.context>
     </properties>
 
 	<distributionManagement>
@@ -35,8 +35,8 @@
 	</distributionManagement>
 	
 	    <scm>
-        <connection>scm:git:git@github.com:${github.account}/Project2.git</connection>
-        <developerConnection>scm:git:git@github.com:${github.account}/demoRepo.git</developerConnection>
+        <connection>scm:git:git@github.com:${github.account}/project2.git</connection>
+        <developerConnection>scm:git:git@github.com:${github.account}/project2.git</developerConnection>
         <url>scm:git:git@github.com:${github.account}/game-of-life.git</url>
       <!-- <tag>1.0.5</tag> --> 
     <tag>HEAD</tag>
@@ -79,7 +79,7 @@
 
 
  <modules>
-        <module>demoRepo_main</module>
+        <module>project2_main</module>
     </modules>
 
 
